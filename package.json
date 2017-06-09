@@ -27,25 +27,25 @@
     "contributes": {
         "languages": [
             {
-                "id": "html",
+                "id": "django-html",
                 "aliases": [
                     "Django Template",
                     "HTML"
                 ],
-                "extensions": [".html", ".htm"],
+                "extensions": [".html", ".htm", ".djhtml", ".djt"],
                 "configuration": "./django-html.configuration.json"
             }
         ],
         "grammars": [
             {
-                "language": "html",
+                "language": "django-html",
                 "scopeName": "text.html.django",
                 "path": "./syntaxes/django-html.json"
             }
         ],
         "snippets": [
             {
-                "language": "html",
+                "language": "django-html",
                 "scopeName": "text.html.django",
                 "path": "./snippets/django-snippets.json"
             }
